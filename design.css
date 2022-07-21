@@ -1,0 +1,86 @@
+* { 
+box-sizing: border-box;
+}
+body {
+	margin: 0;
+}
+.container {
+	
+	height: 100vh;
+	background-color: #363636;
+	display: flex;
+	justify-content: center;
+    align-items: center;	
+}
+.social {
+	color:white;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 450px;
+}
+.social__item {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	transition: all 0.3s;
+	
+}
+.гугл:hover {
+	border-color:#fa3939;
+	box-shadow: 0px 0px 30px #fa3939;  
+	color: #fa3939;
+}
+.телеграмм:hover {
+	border-color:#66a3ff;
+	box-shadow: 0px 0px 30px #66a3ff;  
+	color: #66a3ff;
+}
+.твитер:hover {
+	border-color:#abc9f7;
+	box-shadow: 0px 0px 30px #abc9f7;  
+	color: #abc9f7;
+ )	
+}
+.инстаграм:hover {
+	border-color:#f229b9;
+	box-shadow: 0px 0px 30px #f229b9;  
+	color: #f229b9;
+}
+.вк:hover {
+	border-color:#4429f2;
+	box-shadow: 0px 0px 30px #4429f2;  
+	color: #4429f2;
+}
+.ww2:hover {
+	color: #fa3939;
+}
+a {
+	color:#fff;
+	text-decoration: none;
+}
+.ww3:hover {
+color: #66a3ff;
+}
+.ww5:hover {
+color: #f229b9;
+}
+.ww4:hover {
+color: #abc9f7;
+}
+.ww6:hover {
+color: #4429f2;
+}
+
+
+
+
+
+
+
